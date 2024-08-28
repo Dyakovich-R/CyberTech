@@ -1,4 +1,19 @@
+DEMO-LINK: https://dyakovich-r.github.io/CyberTech/
+
 # AnimalAutocomplete Component
+
+const animalsList = [
+  'Elephant',
+  'Tiger',
+  'Dolphin',
+  'Kangaroo',
+  'Penguin',
+  'Giraffe',
+  'Panda',
+  'Lion',
+  'Eagle',
+  'Zebra',
+];
 
 `AnimalAutocomplete` is a React component that provides an autocomplete feature for selecting animal names from a predefined list. It offers dynamic filtering, loading state, and a user-friendly dropdown interface.
 
