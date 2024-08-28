@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# AnimalAutocomplete Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`AnimalAutocomplete` is a React component that provides an autocomplete feature for selecting animal names from a predefined list. It offers dynamic filtering, loading state, and a user-friendly dropdown interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Filtering:** Filters animal names based on user input in real-time.
+- **Loading Indicator:** Displays a loading message while fetching the list of animals.
+- **Dropdown Menu:** Shows a list of matching animal names in a dropdown.
+- **Selection Handling:** Allows users to select an animal from the dropdown list.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ensure you have `react` and `typescript` installed in your project. Then, add this component to your project:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+Clone the Repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+git clone <repository-url>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Navigate to the Project Directory:
+cd <project-directory>
+
+Install Dependencies:
+npm install
+# or
+yarn install
+
+Start the Development Server:
+npm start
+# or
+yarn start
+
+Running Tests:
+npm test
